@@ -1,70 +1,213 @@
-# Getting Started with Create React App
+📌 MediaWiki Banner Customizer
+🚀 A compact, interactive, and visually appealing React tool for customizing MediaWiki banners with sliders for width, height, border-radius, and more!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🌟 Features
+✅ Real-time Customization – Change text, background color, font size, width, height, and border-radius dynamically.
+✅ Interactive Sliders – Adjust dimensions using sliders instead of manual input for a better UX.
+✅ Live Preview – Instantly see changes in a preview box.
+✅ Modern UI – Sleek and compact design with smooth animations using framer-motion.
+✅ Easy to Use – Simple controls make banner customization effortless.
 
-## Available Scripts
+🛠 Technologies Used
+Tech	                             Description
+React.js	                         Core framework for UI components
+Framer Motion	                     Used for smooth animations
+CSS	Styling the UI
+Git & GitHub	                     Version control & code hosting
+GitHub Pages	                     Deployed the project online
 
-In the project directory, you can run:
+📂 Project Structure
 
-### `npm start`
+new-banner-tool/
+│── src/
+│   ├── components/
+│   │   ├── Banner.js
+│   │   
+│   ├── styles/
+│   │   ├── banner.css
+│   ├── App.js
+│   ├── index.js
+│── public/
+│── package.json
+│── .gitignore
+│── README.md
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🚀 Setup & Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1️⃣ Clone the Repository
 
-### `npm test`
+git clone https://github.com/nitika1989/new-banner-tool.git
+cd new-banner-tool
+2️⃣ Install Dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install
 
-### `npm run build`
+3️⃣ Run the App
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open http://localhost:3000 in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+🚀 1. React & Component-Based Development
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✅ Understanding React Basics:
+Created reusable components (Banner.js, Controls.js).
+Used props and state management to dynamically update the UI.
+Handled event listeners for input changes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+✅ Component Structure & Best Practices:
+Modularized the code to maintain separation of concerns.
+Used controlled components for input fields.
+Passed callback functions between components for dynamic updates.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+✅ Hooks Usage:
+Used useState() for managing component states (banner styles, text, image, colors).
+Used useEffect() for handling updates when a component mounts or changes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🎨 2. UI/UX Enhancements
 
-## Learn More
+✅ Styling & CSS Techniques:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Applied CSS Grid & Flexbox for layout adjustments.
+Used media queries for responsive design.
+Improved button & form styling for better user experience.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+✅ Improved User Interactivity:
 
-### Code Splitting
+Added slider inputs for width, height, and border-radius for live preview.
+Used dropdown selectors for font selection, animations, and alignment.
+Displayed real-time preview of banner changes without needing a refresh.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+✅ Compact & Attractive UI Design:
 
-### Analyzing the Bundle Size
+Reduced unnecessary whitespace & padding for a more compact look.
+Used rounded borders & shadows to improve aesthetics.
+Ensured mobile-friendliness by testing across different screen sizes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🖼️ 3. Image Handling & Dynamic Backgrounds
 
-### Making a Progressive Web App
+✅ File Upload Handling:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Used <input type="file"> to allow users to upload images.
+Used URL.createObjectURL() to preview uploaded images dynamically.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+✅ Image Fit & Resizing:
 
-### Deployment
+Implemented cover, contain, fill options for image placement inside the banner.
+Ensured aspect ratio preservation when resizing images.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+✅ Gradient & Background Styling:
 
-### `npm run build` fails to minify
+Applied CSS gradients for dynamic backgrounds.
+Allowed users to choose from preset gradients & custom color combinations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🎬 4. CSS Animations & Transitions
+✅ Implemented Various Animations:
+
+Fade-in animation for a smooth appearance.
+
+Slide-in animation from different directions.
+
+Zoom-in effect for better visibility.
+
+✅ Troubleshooting Animation Issues:
+
+Fixed invalid easing type ‘easeout’ error.
+Ensured CSS animations apply correctly based on user selection.
+
+🔄 5. API Fetching & Integration
+✅ Fetching Data from Wikimedia API:
+
+Used fetch() API to retrieve data from https://api.wikimedia.org/wiki/Current_events.
+Handled CORS errors & network failures by adding error handling mechanisms.
+
+✅ Displaying Fetched Data in the Banner:
+
+Dynamically updated the banner text with live Wikimedia news updates.
+Used conditional rendering to show loading states & error messages.
+
+🛠️ 6. State Management & Dynamic Updates
+✅ React State Handling Best Practices:
+
+Managed multiple states for text, color, image, gradient, width, height, animations.
+Used object-based state updates to manage multiple properties efficiently.
+Prevented unnecessary re-renders by using state optimizations.
+
+✅ Using Sliders & Controls for Live Customization:
+Integrated range sliders for controlling width, height, and border-radius dynamically.
+Allowed users to see real-time changes without reloading the page.
+
+🌐 7. GitHub & Version Control Best Practices
+✅ Git Workflow & Issue Fixes:
+
+Fixed untracked files issue (git add src/styles and commit).
+Handled branch naming & merging for structured development.
+Fixed "Module not found" errors by properly structuring project files.
+
+✅ Fixing Common Git Errors:
+Case-sensitive imports issue (import Banner from './components/Banner' vs banner.js).
+Outside src directory import error (fixed by moving files inside src/).
+Creating a symbolic link in Windows (mklink command fix).
+
+📦 8. Deploying React App & Debugging Issues
+✅ Steps for Deployment:
+
+Used Netlify/Vercel for quick deployment.
+
+Fixed blank screen issue after deploying by ensuring correct homepage in package.json.
+Found & copied deployed app link to test live version.
+
+✅ Fixing Post-Deployment Bugs:
+
+Fixed CSS & animation issues not reflecting after deployment.
+Ensured responsive design works across different devices.
+Verified fetch API permissions & security settings.
+
+⚡ 9. Performance Optimization
+✅ Code Optimization Techniques:
+
+Removed unnecessary re-renders using React memoization & state batching.
+Minimized DOM updates for better performance.
+
+✅ Reducing Bundle Size:
+
+Used dynamic imports (React.lazy()) to load components only when needed.
+Minimized unnecessary dependencies to reduce build size.
+
+🔥 10. Troubleshooting & Debugging Skills
+✅ Fixed Multiple Errors & Issues:
+
+Blank screen issue due to incorrect component import paths.
+CSS animation not working because of missing animation class in JSX.
+Duplicate banners appearing due to incorrect state handling.
+
+✅ Used Console Logs & DevTools for Debugging:
+
+Debugged React errors using React DevTools & Chrome DevTools.
+Fixed JavaScript runtime errors by checking state changes in the console.
+
+💡 Final Takeaways & Future Improvements
+Key Takeaways from This Project:
+✅ Gained hands-on experience in React & frontend development.
+✅ Learned how to debug & fix real-world errors effectively.
+✅ Improved UI/UX skills by designing a more interactive and compact interface.
+✅ Mastered API fetching & dynamic content updates.
+✅ Understood Git & deployment workflows.
+
+Possible Future Enhancements:
+🚀 Multi-language support for a global audience.
+🎨 More advanced animations & hover effects.
+📜 Template-based banner creation for easier customization.
+📦 Export banners as downloadable images or PDFs.
+🎭 AI-based banner recommendations using machine learning.
+
+🎯 Conclusion
+This project has been an incredible learning experience, helping me become proficient in:
+✔ React development
+✔ CSS animations & UI design
+✔ State management & event handling
+✔ API integration & debugging
+✔ GitHub version control & deployment
+
