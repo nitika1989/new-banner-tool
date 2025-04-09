@@ -53,6 +53,11 @@ const Banner = () => {
     <div className="container">
       <h1>MediaWiki Banner Customizer</h1>
 
+          {/* Add a Button that links to Wikimedia */}
+      <a href="https://www.wikimedia.org/" target="_blank" rel="noopener noreferrer">
+        <button className="wikimedia-button">Click Me</button>
+      </a>
+
       {/* Animated Banner */}
       <motion.div
         className="banner-preview"
