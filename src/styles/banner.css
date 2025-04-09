@@ -4,20 +4,7 @@
     max-width: 600px;
   }
 
-.wikimedia-button {
-  background-color: #006699; /* Wikimedia blue */
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background 0.3s ease;
-}
 
-.wikimedia-button:hover {
-  background-color: #004466; /* Darker shade on hover */
-  
   .banner-preview {
     display: flex;
     align-items: center;
