@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import Banner from "./components/Banner";
 
 function App() {
-  return (
+  
+  return(
     <div>
-      <Banner />
+         <Banner link="https://www.wikimedia.org"/>
     </div>
-  );
-}
 
+  )
+  
+    
+  
+
+}
 export default App;
