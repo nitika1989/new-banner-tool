@@ -3,7 +3,8 @@ import html2canvas from "html2canvas";
 import { motion } from "framer-motion";
 import "../styles/banner.css";
 
-const Banner = () => {
+
+const Banner = ( {link}) => {
   const [bannerText, setBannerText] = useState("Welcome to MediaWiki Banner Tool");
   const [bgColor, setBgColor] = useState("#ffffff");
   const [textColor, setTextColor] = useState("#000000");
@@ -13,8 +14,11 @@ const Banner = () => {
   const [width, setWidth] = useState(80);
   const [height, setHeight] = useState(300);
   const [borderRadius, setBorderRadius] = useState(10);
-  const [image, setImage] = useState(null);
+  const [image, setImage] = useState(null); 
   const [animation, setAnimation] = useState("fadeIn");
+ 
+
+  
 
   const animationOptions = {
     fadeIn: { opacity: [0, 1] },
@@ -52,7 +56,8 @@ const Banner = () => {
   return (
     <div className="container">
       <h1>MediaWiki Banner Customizer</h1>
-
+     
+     
       {/* Animated Banner */}
       <motion.div
         className="banner-preview"
@@ -78,6 +83,11 @@ const Banner = () => {
       >
         {image && <img src={image} alt="Banner" className="banner-image" />}
         <p>{bannerText}</p>
+        {link && (
+        <a href={link} className="cta-button" target="_blank" rel="noopener noreferrer">
+          Click Me
+        </a>
+      )}
       </motion.div>
 
       {/* Compact Form */}
