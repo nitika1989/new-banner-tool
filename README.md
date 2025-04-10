@@ -211,3 +211,66 @@ This project has been an incredible learning experience, helping me become profi
 ✔ API integration & debugging
 ✔ GitHub version control & deployment
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------Updated Mediawiki Banner Tool----------------------------------------------------------------------------------------------------------------
+
+
+
+🆕 New Features Added 🚀
+✅ Clickable CTA Button: Users can now add a Call-to-Action button on the banner, linking to Wikimedia pages or any other relevant URL. This ensures users can engage with campaigns more effectively.
+✅ Full Customization Panel: Modify text, background, font, size, alignment, and borders dynamically.
+✅ Image Upload Support: Add custom images to banners for a richer visual experience.
+✅ Smooth Animations: Choose from different animations (Fade In, Slide In, Blink, etc.) to enhance the banner’s appearance.
+✅ Download as Image: Users can export the banner as a PNG image for reuse.
+✅ Responsive & User-Friendly UI: Built with React & Framer Motion, ensuring a modern and intuitive experience.
+______________________________________
+________________________________________
+Attatching screenshot of my output.
+
+
+
+📌 How to Use the Banner Tool
+1️⃣ Clone the Repository:
+
+git clone https://github.com/nitika1989/new-banner-tool
+cd new-banner-tool
+2️⃣ Install Dependencies:
+
+npm install
+3️⃣ Run the Application:
+
+npm start
+4️⃣ Customize Your Banner:
+•	Edit the banner text, colors, fonts, alignment, size, and animations.
+•	Upload an image to make the banner visually engaging.
+•	Add a CTA button with a clickable external link.
+•	Download the banner as an image file.
+________________________________________
+💡 What I Learned from This Contribution
+✨ Deepened my understanding of React.js – Managing state, handling events, and structuring a scalable component-based UI.
+✨ Debugging & Problem-Solving – Faced and resolved several real-world React and CSS issues.
+✨ Enhanced UX/UI Skills – Focused on accessibility, responsiveness, and aesthetics.
+✨ Gained Open-Source Contribution Experience – Learned to collaborate, push code, and submit meaningful contributions to Wikimedia’s ecosystem.
+________________________________________
+🚀 Why This Contribution is Unique & Impactful
+This project stands out because it goes beyond basic banner customization. It introduces interactive elements like the CTA button, real-time styling, animations, and image uploads—making the tool not just a banner generator but a comprehensive media design tool for Wikimedia contributors.
+Through this contribution, I aimed to make banner creation more accessible, efficient, and visually appealing, helping Wikimedia communities deliver their messages more effectively.
+________________________________________
+🔗 Future Enhancements
+🔹 Multi-Language Support – Enable users to create banners in different languages for a global reach.
+🔹 Pre-made Templates – Provide ready-to-use banner templates for faster customization.
+🔹 Advanced Animations – Add more animation effects to make banners more dynamic.
+________________________________________
+🌟 Final Thoughts
+This contribution has been an incredible learning experience. From fixing simple CSS issues to implementing complex interactive features, I’ve grown as a developer and open-source contributor.
+🚀 I believe this updated MediaWiki Banner Tool will be a game-changer for the Wikimedia community, making banner creation more accessible, engaging, and efficient!
+Would love to hear feedback from the community! 🌍✨
+📌 Contributor: [Nitika Vasishtha]
+📌 GitHub Repo: [https://github.com/nitika1989/new-banner-tool]
+________________________________________
+🙌 Thank You, Wikimedia & Outreachy!
+A huge thanks to my mentors and the Wikimedia team for their guidance and support. This journey has been challenging yet rewarding, and I am excited to continue contributing to open-source projects that make a real impact! 🚀🎉
+ 
+
+
+
+
